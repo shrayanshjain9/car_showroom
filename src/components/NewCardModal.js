@@ -25,7 +25,7 @@ const NewCardModal = ({ isOpen, onClose, onSave }) => {
   };
 
   const generateNewId = () => {
-    // Generate a random number for simplicity
+    // Generate a random number for simplicity.
     return Math.floor(Math.random() * 10000);
   };
   const handleSave = () => {
